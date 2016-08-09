@@ -10,7 +10,7 @@ function handle_click() {
         btn: "No.",
         msg: "Now go back living your small, pointless existence."
       };
-      timeout_period = 400;
+      timeout_period = 700;
       break;
     case 1:
       new_params = {
@@ -58,7 +58,7 @@ function handle_click() {
   $("button#trigger").html(new_params.btn);
   if (new_params.msg !== undefined) {
     setTimeout( function() {
-      Materialize.toast(new_params.msg, 4500, "blue-grey")
+      Materialize.toast(new_params.msg, 4500, "blue-grey darken-4")
     }, timeout_period);
   }
 
