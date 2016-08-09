@@ -8,7 +8,7 @@ function handle_click() {
     case 0:
       new_params = {
         btn: "No.",
-        msg: "Now go back living your small, pointless existence."
+        msg: "Now go back to living your small, pointless existence."
       };
       timeout_period = 900;
       break;
