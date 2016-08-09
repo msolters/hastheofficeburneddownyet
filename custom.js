@@ -10,7 +10,7 @@ function handle_click() {
         btn: "No.",
         msg: "Now go back living your small, pointless existence."
       };
-      timeout_period = 700;
+      timeout_period = 900;
       break;
     case 1:
       new_params = {
@@ -41,11 +41,15 @@ function handle_click() {
       new_params = {
         btn: "Intermission: Lunch"
       };
+      $("button#trigger").removeClass("red");
+      $("button#trigger").addClass("green");
       break;
     case 7:
       new_params = {
         btn: "Stage IV: Depression"
       };
+      $("button#trigger").removeClass("green");
+      $("button#trigger").addClass("red");
       break;
     case 8:
       new_params = {
